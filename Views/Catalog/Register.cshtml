@@ -1,0 +1,62 @@
+@{
+    ViewData["Title"] = "Register Car";
+}
+
+
+<h1 class="top">Register new car</h1>
+
+<div class="form item outerblock">
+
+    <div>
+        <label class="form col col-4">Make</label>
+        <input id="txtMake">
+    </div>
+<div>    
+    <label class="form col col-4">Model</label>
+    <input id="txtModel">
+</div>
+<div>
+    <label class="form col col-4">Year</label>
+    <input id="txtYear">
+</div>
+<div>
+    <label class="form col col-4">Daily Price</label>
+    <input id="txtDailyPrice">
+</div>
+<div>
+    <label class="form col col-4">Cylinders</label>
+    <input id="txtCylinders">
+</div>
+<div>
+    <label class="form col col-4">Passengers</label>
+    <input id="txtPassengers">
+</div>
+<div>    
+    <label class="form col col-4">Type</label>
+    <input id="txtType">
+</div>
+<div>
+    <label class="form col col-4">Image URL</label>
+    <input id="txtImageUrl">
+</div>
+<div>
+    <label class="form col col-4">Description</label>
+    <input id="txtDescription">
+</div>
+<div>
+    <label class="form col col-4">Fuel Type</label>
+    <input id="txtFuelType">
+</div>
+<div class="form col-8">
+    <button class="btn btn-primary" onClick=saveCar()>Register</button>
+</div>
+
+</div>
+
+@section Styles{
+    <link href="/css/register.css" rel="stylesheet">
+}
+
+@section Scripts{
+    <script src="/js/catalog/register.js"></script>
+}

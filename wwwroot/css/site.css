@@ -1,0 +1,151 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+body{
+  background-image: url("https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D4488%252C2525%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C900%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-06%252Fad5ed8b0-996d-11e9-8beb-2ee08ac7ac1d%26client%3Da1acac3e1b3290917d92%26signature%3Df245a7606c708ab449b9700a0fd9fb9f28723ffe&client=amp-blogside-v2&signature=ee28d12b44fdd9ffb859951f35063da83dcf7bea");
+  background-attachment: fixed;
+}
+
+.blocktext p{
+  width: 10em;
+  text-align: right;
+  font-weight: bolder;
+}
+
+h5{
+  margin-left: 20px;
+  float: left;
+}
+
+.top{
+  border: 3px solid #000;
+  background-color: azure;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.itemtop{
+  height: 50px;
+  text-align: left;
+}
+
+.form button{
+  margin-left: 60%;
+}
+
+.outerblock{
+  width: 100%;
+  border: solid 2px #000;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #777;
+  display: inline-block;
+  padding: 10px
+}
+
+.block{
+  display: flex;
+}
+
+.block img{
+    margin: 10px;
+    width: 40%;
+    border: solid 1px #000;
+    border-radius: 3px;
+}
+
+.block h3, h4{
+    margin-left: 5px;
+}
+
+.lowerblock{
+    text-align: center;
+    background-color: azure;
+    margin: 20px;
+    border: #000 solid 1px;
+    border-radius: 3px;
+    padding: 5px;
+    height: 20vh;
+}
+
+.lowerblock button{
+  margin: 15px;
+  border: #000 solid 2px;
+  background-color: #777;
+}
+
+.catalog{
+  display: inline-flex;
+  width: 50%;
+  text-align: center;
+}
